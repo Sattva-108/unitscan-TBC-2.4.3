@@ -20,7 +20,7 @@ Backport of **unitscan-rares** with extra functionality, that already has all ra
 1. **`/unitscan`**
  - general chat command to list all your custom units and shows available commands.
  
-2. **`/unitscan tar`**
+2. **`/unitscan target`**
  - will add/remove your current target from the list of scanned units.
  
 3. **`/unitscan name`**
@@ -37,7 +37,7 @@ Backport of **unitscan-rares** with extra functionality, that already has all ra
 1. You are now able to add your current target to the list via slash command. 
 You could also make a macro
 ```lua 
-/unitscan tar
+/unitscan target
 ```
 
 2. Can now close button on right click.
