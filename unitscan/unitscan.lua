@@ -451,8 +451,7 @@ do
 	
 	function unitscan.play_sound()
 		if not last_played or GetTime() - last_played > 3 then
-			-- disabled annoying sound
-			-- PlaySoundFile([[Interface\AddOns\unitscan\assets\Event_wardrum_ogre.ogg]], 'Sound')
+			PlaySoundFile([[Interface\AddOns\unitscan\assets\Event_wardrum_ogre.ogg]], 'Sound')
 			PlaySoundFile([[Sound\Interface\MapPing.wav]], 'Sound')
 			last_played = GetTime()
 		end
