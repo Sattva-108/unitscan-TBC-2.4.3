@@ -1,8 +1,17 @@
+Changelog by Sattva 21th April 2023 #2;
+- Fixed clicking button not setting raid target icon on rare mobs.
+- Changed command "tar" to "target" to avoid issues with some mob names, e.g. Tar Lurker.
+
 Changelog by Sattva 20th April 2023 #1;
 - Addon is backported and ready to release.
 
 
-	To-Do List:
+Known bugs:
+First right click per session in combat to close button will make a taint error, then it's fine.
+
+
+To-Do List:
+
 Fix taint by right click on button in combat to close it.
 Add ability to copy names of NPCs in chat after using /unitscan.
 Find a way to not add a dead unit to button.
