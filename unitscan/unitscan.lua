@@ -752,10 +752,10 @@ SlashCmdList["UNITSCAN"] = function(parameter)
 	local _, _, command, args = string.find(parameter, "(%a+)%s*(.*)")
 	
 	if command == "" then
-		unitscan.print("/unitscan tar - Add the name of your current target to the scanner.")
+		unitscan.print("/unitscan target - Add the name of your current target to the scanner.")
 		unitscan.print("/unitscan <name>        - Adds/removes the 'name' from the unit scanner.")
 		unitscan.print("/unitscan nearby        - Lists the nearby units in the same zone.")
-	elseif command == "tar" then
+	elseif command == "target" then
 		local targetName = UnitName("target")
 		if targetName then
 			local key = strupper(targetName)
@@ -784,7 +784,7 @@ SlashCmdList["UNITSCAN"] = function(parameter)
 		end
 		unitscan.print("Is someone missing? Add it to your list with \"/unitscan name\"")
 	elseif not command then
-		unitscan.print("tar")
+		unitscan.print("target")
 		print(" - Adds/removes the name of your current target to the scanner.")
 		print(" ")
 		unitscan.print("name")
