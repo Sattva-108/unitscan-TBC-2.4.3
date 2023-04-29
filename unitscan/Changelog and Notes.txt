@@ -1,5 +1,8 @@
-Changelog by Sattva 28th April 2023 #2;
-- Fixed button set raid target mark while in raid (was retail API).
+Changelog by Sattva 29th April 2023 #4;
+- Added by Macumba frFR - French client database of rare spawns. Thanks to Macumba for changing and organizing all data in French!
+
+Changelog by Sattva 28th April 2023 #3;
+- Fixed button to set raid target mark while in raid (was retail API).
 - Added ruRU - Russian client database of rare spawns. (other locales need volunteers) Its big work.
 - Fixed unitscan conflict with blizzard UI and other addons. (lower strata, rename close button).
 - Added function to see name of found unit in chat if he was found during combat.
@@ -14,7 +17,8 @@ Changelog by Sattva 20th April 2023 #1;
 
 
 Known bugs:
-First right click per session in combat to close button will make a taint error, then it's fine.
+First right click on NPC button (to close it) per session in combat -  will make a taint error (if first clck was done without combat, then click in combat is fine), then it's fine.
+It's some weird 2.4.3 bug. Taint error is nothing bad. 
 
 
 
@@ -24,7 +28,7 @@ Add ability to copy names of NPCs in chat after using /unitscan.
 Find a way to not add a dead unit to button.
 Make keybinds in default Blizzard Keybindings menu for Add/Remove current Target, Click button, Close button.
 Add a slash command to disable scanning entirely.
-Make scanning in raids optional via slash command, by default disabled.
+Make scanning in raids optional via slash command, by default enabled.
 Add optional model viewer, via slash command, by default disabled.
 Add ability to ignore certain rare via slash command.
 After adding new commands need to put them into /unitscan help command so that when someone do /unitscan to check for targets he doesnt get spammed with all of them.
