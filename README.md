@@ -6,6 +6,7 @@ Backport of **unitscan-rares** with extra functionality, that already has all ra
 
 ## Credit
 - Credit to [simon_hirsig](https://legacy.curseforge.com/members/simon_hirsig/projects) & [tablegrapes](https://legacy.curseforge.com/members/tablegrapes/projects)
+- Credit to [Macumba](https://github.com/Macumbafeh/) for checking all rares in list and then adding frFR database!
 - Code from [unitscan](https://legacy.curseforge.com/wow/addons/unitscan) & [unitscan-rares](https://www.curseforge.com/wow/addons/unitscan-rares)
 
 
