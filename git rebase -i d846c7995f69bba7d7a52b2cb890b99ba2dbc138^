@@ -1,0 +1,86 @@
+[33mcommit 87141a5adece3f443474058461521c76bcdc95ea[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sattva <74269253+Sattva-108@users.noreply.github.com>
+Date:   Sat Apr 29 21:31:41 2023 +0300
+
+    Update README.md
+
+[33mcommit d846c7995f69bba7d7a52b2cb890b99ba2dbc138[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Sat Apr 29 21:25:01 2023 +0300
+
+    added frFR - French DB by Macumba list of rare mobs.
+    
+    Also disabled some rares/world bosses
+    And put the comment to them, why disabled.
+
+[33mcommit 54b8143d5cda4126ac58286924d98b4ac951cf47[m
+Author: Sattva <74269253+Sattva-108@users.noreply.github.com>
+Date:   Fri Apr 28 04:23:30 2023 +0300
+
+    Update README.md
+
+[33mcommit 1d734b79fa3e1bf0ef19f1ba7c362a72b23b19f2[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Fri Apr 28 04:18:06 2023 +0300
+
+    added ruRU language rares and error fixes
+    
+    - Fixed button set raid target mark while in raid (was retail API).
+    - Added ruRU - Russian client database of rare spawns. (other locales need volunteers) Its big work.
+    - Fixed unitscan conflict with blizzard UI and other addons. (lower strata, rename close button).
+    - Added function to see name of found unit in chat if he was found during combat.
+
+[33mcommit f7b7a29c5dc0acfa5cbcbca8fc341128174dbf3b[m
+Merge: 931af6b c3e804c
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Sat Apr 22 01:29:06 2023 +0300
+
+    Merge branch 'main' of https://github.com/Sattva-108/unitscan-TBC-2.4.3
+
+[33mcommit 931af6bddb5838bad8c9b45ea67ecd14cb1531b2[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Sat Apr 22 01:28:45 2023 +0300
+
+    update changelog
+
+[33mcommit c3e804c878bcc792a98bf39e054546716addf527[m
+Author: Sattva <74269253+Sattva-108@users.noreply.github.com>
+Date:   Sat Apr 22 01:22:02 2023 +0300
+
+    Update README.md
+
+[33mcommit 6a629fb472c794bf59ce752bebdd4ab236b8122f[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Fri Apr 21 21:02:33 2023 +0300
+
+    change tar slash command to target
+    
+    to avoid adding units that names starts with tar e.g. tar lurker
+
+[33mcommit e6814c0cab2aa3914b392fcb354086bd35791c86[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Fri Apr 21 20:51:44 2023 +0300
+
+    set raid icon fix
+    
+    can now set raid icon on both rares and custom npcs
+
+[33mcommit 7cfefb5c20018934e29d038cc6beb618ac6ae2fd[m
+Author: Sattva <Sattvagit@gmail.com>
+Date:   Fri Apr 21 18:04:49 2023 +0300
+
+    enable wardrum sound
+
+[33mcommit 47ab41df43a65ca2fc78d4152545413f483fb116[m
+Author: Sattva <74269253+Sattva-108@users.noreply.github.com>
+Date:   Thu Apr 20 15:36:27 2023 +0300
+
+    Create README.md
+
+[33mcommit cbab02dad1ffe8593a047c696dc08281e2e7f618[m
+Author: Sattva <74269253+Sattva-108@users.noreply.github.com>
+Date:   Thu Apr 20 15:07:02 2023 +0300
+
+    initial backport
+    
+    for TBC-2.4.3
