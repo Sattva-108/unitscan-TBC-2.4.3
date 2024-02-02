@@ -5,9 +5,9 @@
 ## X-GitHub-Project-Issues: https://github.com/Sattva-108/unitscan-TBC-2.4.3/issues
 ## X-GitHub-Project-Download: https://github.com/Sattva-108/unitscan-TBC-2.4.3/archive/refs/heads/main.zip
 
-## Author: shirsig, backport by Sattva
+## Author: shirsig, tablegrapes, backport by Sattva
 ## Title: unitscan
 ## Version: 2.4.3
 ## Notes: Unit scanner with flashy alert 
-## SavedVariables: unitscan_targets
+## SavedVariables: unitscan_defaults, unitscan_targets, unitscan_ignored
 unitscan.lua
