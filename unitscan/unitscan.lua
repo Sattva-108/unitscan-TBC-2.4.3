@@ -2378,6 +2378,9 @@ SlashCmdList["UNITSCAN"] = function(parameter)
 			taxiScanState = '|cFF00FF00- ENABLED'
 		end
 
+
+
+
 		print(" ")
 		print("|cfff0d440Available commands:|r")
 
@@ -2393,6 +2396,8 @@ SlashCmdList["UNITSCAN"] = function(parameter)
 				print(" - Adds/removes the rare mob 'name' from the unit scanner |cffff0000ignore list.|r")
 		unitscan.print("taxi")
 		print(" - Toggle scanning rares on taxi (flight master) " .. taxiScanState)
+		unitscan.print("interval")
+		print(" - Set how often to scan for unit " .. 'Current Interval: |cFF00FF00' .. unitscan_defaults.CHECK_INTERVAL)
 
 
 	--===== Slash without any arguments (/untiscan) prints currently tracked user-defined units and some basic available slash commands  =====--
